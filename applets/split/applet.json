@@ -1,0 +1,5 @@
+{
+    "name" : "Split",
+    "description" : "Select the next applet at random.",
+    "type" : ["voice", "sms"]
+}
