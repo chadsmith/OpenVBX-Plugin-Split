@@ -1,14 +1,12 @@
 <?php
 $choices = (array) AppletInstance::getDropZoneUrl('choices[]');
-
 array_filter($choices);
 shuffle($choices);
+$next = array_shift($choices);
 
-$choice = array_shift($choices);
+$response = new TwimlResponse;
 
-$response = new Response();
+if(!empty($next))
+	$response->redirect($next);
 
-if(!empty($choice))
-	$response->addRedirect($choice);
-
-$response->Respond();
+$response->respond();
