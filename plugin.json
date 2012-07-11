@@ -1,6 +1,6 @@
 {
-	"name" : "A/B Split",
+	"name" : "Split and Cycle ",
     "author" : "Chad Smith <chad@nospam.me>",
-    "description" : "Select the next applet at random.",
+    "description" : "Select the next applet at random or by cycling through a list.",
     "url" : "http://twitter.com/chadsmith"
 }

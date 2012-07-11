@@ -1,0 +1,5 @@
+{
+    "name" : "Cycle",
+    "description" : "Select the next applet on the list.",
+    "type" : ["voice", "sms"]
+}
